@@ -10,6 +10,10 @@ public class ArraysCC{
         }
         return-1;
     }
+
+    public static void update(int marks){
+        
+    }
     public static void main(String args[]){
     //   int marks[] =new int[100];
 
