@@ -20,7 +20,7 @@ public class BinaryArr {
         return -1;
     }
 
-    public static void main(String args[]) {
+  public static void main(String args[]) {
         int numbers[] = {2, 4, 6, 8, 9, 10, 14, 15};
         int key = 10;
 
