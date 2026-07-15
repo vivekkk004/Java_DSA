@@ -1,0 +1,32 @@
+1 . HM.PUT(IND , 140);
+1> HM.PUT (NIG, 10)
+HM.GET("IND")==> TRUE
+
+# HOW TO MAKE 
+
+HashMap<String, Integer>hm= new HashMap<>();
+hm.put("India",135);
+hm.put("chaina",135);
+
+
+# we can update any value using put just give 
+updated key and value in param it will update 
+without changing order
+
+# fun :
+Put , get , containsKey , keySet => all fun coplacity is " O(1) "
+
+# Set<String> keys = hm.keySet(); ==> get all keys 
+its help to apply loop 
+
+for(String key: hm.key()){
+    Integer val: hm.get(key);
+    System.out.println(key +""+val);
+}
+
+
+value           no          yes
+put            insert      update
+get             null        value 
+containsKey    false        true 
+keySet ==> gives all keys then we applay loop kon keySet
