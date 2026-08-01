@@ -1,24 +1,16 @@
 public class LargenumArr{
-    public static int getlarge(int arr[]){
-     int lagrest = Integer.MIN_VALUE;// - INFINITY
-     int Smallest =  Integer.MAX_VALUE;
 
+  public static void main(String args[]){
+    int arr[] ={7,8,9,4,6,5};
+  int largest = arr[0];
 
-     for (int i=0; i<arr.length; i++){
-       if(lagrest< arr[i]) {
-        lagrest = arr[i];
-       }
-       if(Smallest > arr[i]){
-        Smallest = arr[i];
-       }
-     }
-      System.out.println("smallest value is "+ Smallest);
-    return lagrest;
+  for(int i=0; i<arr.length; i++){
+    if(arr[i]>largest){
+      largest = arr[i];
     }
-        public static void main(String args[]) {
-     int arr[]= {6,10,44,56 ,4};
-     
-     System.out.print("Lagre value is "+ getlarge(arr));
+ 
+  }
+     System.out.print(largest);
+  }
 
-    }
-} 
+}
