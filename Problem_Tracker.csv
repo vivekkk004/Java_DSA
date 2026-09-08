@@ -1,0 +1,47 @@
+Problem,Concept,Difficulty,Revise Time,File Path,Notes
+Linear Search in Array,Arrays / Searching,Easy,,ArraysCC.java,Has dead commented-out code
+Binary Search on Sorted Array,Arrays / Searching,Easy,,BinaryArr.java,
+Linear Search (function-based),Arrays / Searching,Easy,,LinearS.java,
+Linear Search (root variant),Arrays / Searching,Easy,,LinearSearch.java,Duplicate-named file vs String/LinearSearch.java
+Linear Search (String folder variant),Arrays / Searching,Easy,,String/LinearSearch.java,Duplicate-named file vs root LinearSearch.java
+Largest and Second Largest in Array,Arrays,Easy-Medium,,LargenumArr.java,
+Largest / Second / Third Largest in Array,Arrays,Medium,,Secondlargestarr.java,
+Left Rotate Array by One,Arrays,Easy,,LeftRotate.java,
+Rotate Array Right by One,Arrays,Easy,,RotateArray.java,
+Merge Two Arrays,Arrays,Easy,,MergeArray.java,
+Find Minimum in Array,Arrays,Easy,,MinArr.java,"Bug: logic finds maximum, label says Minimum"
+Print All Pairs in Array,Arrays,Easy,,PairsArr.java,
+Reverse an Array,Arrays / Two Pointers,Easy,,ReverseArr.java,
+Print All Subarrays,Arrays,Medium,,SubArrSum.java,Duplicate logic of Subarr.java
+Print All Subarrays (duplicate),Arrays,Medium,,Subarr.java,Duplicate logic of SubArrSum.java
+Two Sum (brute force),Arrays / Hashing,Easy-Medium,,TwoSum.java,Classic LeetCode #1
+Remove Duplicates from Sorted Array (two-pointer),Arrays / Two Pointers,Medium,,RemoveDup.java,Classic LeetCode-style problem
+Remove Duplicates using HashSet,Arrays / HashSet,Easy,,RemoveDuplicate.java,Has commented-out brute-force version above active code
+Remove Duplicates (nested-loop),Arrays,Easy-Medium,,String/RemoveDuplicates.java,O(n^2) approach; duplicate purpose of RemoveDup.java
+Most Frequent Element in Array,HashMap / Arrays,Medium,,MaxFreqArr.java,Uses Scanner + HashMap
+Find Missing Number in Array,Math / Arrays,Easy,,String/MissingNo.java,Sum formula approach
+Reverse a String (charAt loop),Strings,Easy,,ReverseString.java,Duplicate-named vs String/ReverseString.java
+Reverse a String (two-pointer + helper method),Strings,Easy,,String/ReverseString.java,Duplicate-named vs root ReverseString.java; more thorough
+Check Palindrome String (two-pointer),Strings,Easy,,String/PalindromeString.java,
+Check Palindrome String (isPalindrome via charAt),Strings,Easy,,String/palindrome.java,
+Check if Two Strings are Anagrams,Strings,Medium,,String/Anagram.java,Uses Arrays.sort on char arrays
+Substring Extraction (custom implementation),Strings,Easy,,String/SubString.java,
+Convert String to Uppercase,Strings,Easy,,String/ToUpCase.java,Incomplete/won't compile - placeholder file
+Empty String File,Strings,,,MyString.java,Empty file - no content
+Check Armstrong Number,Math,Easy,,Basic Maths For DSA/ArmstrongNum.java,
+Count All Digits of a Number,Math,Easy,,Basic Maths For DSA/CountallDigits.java,
+Check Palindrome Number (Basic Maths folder),Math,Easy,,Basic Maths For DSA/PalindromeNum.java,
+Reverse a Number,Math,Easy,,Basic Maths For DSA/ReverseAnumber.java,
+Check Palindrome Number (root, via reverse helper),Math,Easy,,palindrome.java,Duplicate purpose vs Basic Maths For DSA/PalindromeNum.java
+Binomial Coefficient via Factorial,Math / Combinatorics,Medium,,Binomial.java,Uses helper factorial() + binCoeff()
+Bubble Sort,Sorting,Easy,,BubbleSort.java,
+Selection Sort on 2D Array (sort pairs by first column),Sorting,Medium,,Sort.java,Uses Scanner and int[][]
+Sorting Algorithms Collection (Bubble/Selection/Insertion),Sorting,Medium,,Sorting.java,Contains 3 implementations; only InsertionSort active in main
+Highest Frequency Character in a String,HashMap / Strings,Easy-Medium,,Hashmap/HiFrChr.java,Uses HashMap<Character Integer>
+Discount Calculator (tiered % off by amount),Conditionals / Basic Logic,Easy,,DiscountCal.java,Uses Scanner input
+Gym Membership Cost Calculator (tiered pricing),Conditionals / Basic Logic,Easy,,GymMem.java,Uses Scanner input
+Parking System Fine Calculator,Conditionals / Basic Logic,Easy,,ParkingSy.java,Uses Scanner input
+Find Largest of Three Numbers,Conditionals / Basic Logic,Easy,,index.java,Mostly commented-out scratch code; only last class block active
+Maximum Subset Sum <= Given Limit (bitmask),Arrays / Bit Manipulation,Hard,,maxSum.java,Uses bitmask enumeration of 2^n subsets - most advanced file in repo
+Unclear/Broken File (StarP class),Unknown,,,StarP.java,"Invalid syntax, will not compile"
+Scratch Temp File (Largest/Second/Third duplicate),Arrays,,,tempCodeRunnerFile.java,"Broken code - undeclared variables, will not compile. Likely stray Code Runner artifact"
